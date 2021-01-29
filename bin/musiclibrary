@@ -1,4 +1,5 @@
-require 'irb'
+#!/usr/bin/env ruby
+
 require_relative '../config/environment'
 
-IRB.start
+MusicLibraryController.new.call
